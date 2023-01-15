@@ -8,7 +8,7 @@ Be carefull as this is very dangerous
 1
 =====================
 Make sure you download the files and save them into a folder
-https://github.com/delecateflower/evilcrypter.git
+git clone https://github.com/delecateflower/evilcrypter.git
 mkdir encyrption [or of your choice]
 sudo cp [the two files] into folder and they should appear as follows
 
@@ -19,12 +19,15 @@ sudo cp [the two files] into folder and they should appear as follows
 =====================
 Then provide the full administrtor privelledges to the file
 command ---- chmod +x *
+then do pip3 install rsa
+pip3 install cyrptography
 
 =====================
 directory encrypton !
 =====================
 make sure you know the directory to encrypt!
 then right the following commmand in the video
+command --- sudo python3 crypt.py --dirpath "path containing the directory to encrypt." !!remeber not to include a slash in the last directory.
 
 https://user-images.githubusercontent.com/122709369/212520536-8a65a65a-587d-4499-8abb-d8ab618c0bde.mp4
 
@@ -33,6 +36,7 @@ directory decryption!
 =====================
 make sure to note the directory you decrepted !
 then right the following as illustrated in the video
+command --- sudo python3 decrypt.py --dirpath "path containing the directory to encrypt" --dirkeyfile "path containing the private key" --cryptdirkey "path containing the cryptography key"
 
 https://user-images.githubusercontent.com/122709369/212520755-7e0dbceb-d725-401b-bcc9-b729b67ecb74.mp4
 
