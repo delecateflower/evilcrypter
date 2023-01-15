@@ -8,7 +8,7 @@ Be carefull as this is very dangerous
 1
 =====================
 Make sure you download the files and save them into a folder
-git clone 
+https://github.com/delecateflower/evilcrypter.git
 mkdir encyrption [or of your choice]
 sudo cp [the two files] into folder and they should appear as follows
 
